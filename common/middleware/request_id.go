@@ -1,8 +1,8 @@
 package middleware
 
 import (
-	"github.com/go-admin-team/go-admin-core/logger"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg"
+	"github.com/yel-yan/go-admin-core/logger"
+	"github.com/yel-yan/go-admin-core/sdk/pkg"
 	"net/http"
 	"strings"
 

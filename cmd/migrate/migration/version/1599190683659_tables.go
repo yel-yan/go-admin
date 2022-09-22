@@ -1,7 +1,7 @@
 package version
 
 import (
-	"github.com/go-admin-team/go-admin-core/sdk/config"
+	"github.com/yel-yan/go-admin-core/sdk/config"
 	"runtime"
 
 	"go-admin/cmd/migrate/migration"

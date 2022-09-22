@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg/utils"
 	"github.com/spf13/cobra"
+	"github.com/yel-yan/go-admin-core/sdk/pkg"
+	"github.com/yel-yan/go-admin-core/sdk/pkg/utils"
 	"text/template"
 )
 

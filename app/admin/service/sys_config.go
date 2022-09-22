@@ -7,7 +7,7 @@ import (
 	"go-admin/app/admin/service/dto"
 	cDto "go-admin/common/dto"
 
-	"github.com/go-admin-team/go-admin-core/sdk/service"
+	"github.com/yel-yan/go-admin-core/sdk/service"
 	"gorm.io/gorm"
 )
 

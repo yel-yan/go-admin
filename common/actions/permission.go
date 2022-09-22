@@ -4,11 +4,11 @@ import (
 	"errors"
 
 	"github.com/gin-gonic/gin"
-	log "github.com/go-admin-team/go-admin-core/logger"
-	"github.com/go-admin-team/go-admin-core/sdk/config"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg/jwtauth/user"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg/response"
+	log "github.com/yel-yan/go-admin-core/logger"
+	"github.com/yel-yan/go-admin-core/sdk/config"
+	"github.com/yel-yan/go-admin-core/sdk/pkg"
+	"github.com/yel-yan/go-admin-core/sdk/pkg/jwtauth/user"
+	"github.com/yel-yan/go-admin-core/sdk/pkg/response"
 	"gorm.io/gorm"
 )
 

@@ -3,9 +3,9 @@ package tools
 import (
 	"errors"
 	"github.com/gin-gonic/gin"
-	"github.com/go-admin-team/go-admin-core/sdk/config"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg"
-	_ "github.com/go-admin-team/go-admin-core/sdk/pkg/response"
+	"github.com/yel-yan/go-admin-core/sdk/config"
+	"github.com/yel-yan/go-admin-core/sdk/pkg"
+	_ "github.com/yel-yan/go-admin-core/sdk/pkg/response"
 
 	"go-admin/app/other/models/tools"
 )

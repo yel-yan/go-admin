@@ -7,15 +7,15 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/go-admin-team/go-admin-core/sdk"
-	"github.com/go-admin-team/go-admin-core/sdk/api"
-	"github.com/go-admin-team/go-admin-core/sdk/config"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg/captcha"
-	jwt "github.com/go-admin-team/go-admin-core/sdk/pkg/jwtauth"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg/jwtauth/user"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg/response"
 	"github.com/mssola/user_agent"
+	"github.com/yel-yan/go-admin-core/sdk"
+	"github.com/yel-yan/go-admin-core/sdk/api"
+	"github.com/yel-yan/go-admin-core/sdk/config"
+	"github.com/yel-yan/go-admin-core/sdk/pkg"
+	"github.com/yel-yan/go-admin-core/sdk/pkg/captcha"
+	jwt "github.com/yel-yan/go-admin-core/sdk/pkg/jwtauth"
+	"github.com/yel-yan/go-admin-core/sdk/pkg/jwtauth/user"
+	"github.com/yel-yan/go-admin-core/sdk/pkg/response"
 	gaConfig "go-admin/config"
 
 	"go-admin/common/global"
@@ -120,7 +120,7 @@ func LoginLogToDB(c *gin.Context, status string, msg string, username string) {
 	ua := user_agent.New(c.Request.UserAgent())
 	l["ipaddr"] = common.GetClientIP(c)
 	fmt.Println("gaConfig.ExtConfig.AMap.Key", gaConfig.ExtConfig.AMap.Key)
-	l["loginLocation"] = pkg.GetLocation(common.GetClientIP(c),gaConfig.ExtConfig.AMap.Key)
+	l["loginLocation"] = pkg.GetLocation(common.GetClientIP(c), gaConfig.ExtConfig.AMap.Key)
 	l["loginTime"] = pkg.GetCurrentTime()
 	l["status"] = status
 	l["remark"] = c.Request.UserAgent()

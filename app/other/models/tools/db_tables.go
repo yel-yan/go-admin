@@ -2,11 +2,11 @@ package tools
 
 import (
 	"errors"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg"
+	"github.com/yel-yan/go-admin-core/sdk/pkg"
 
 	"gorm.io/gorm"
 
-	config2 "github.com/go-admin-team/go-admin-core/sdk/config"
+	config2 "github.com/yel-yan/go-admin-core/sdk/config"
 )
 
 type DBTables struct {

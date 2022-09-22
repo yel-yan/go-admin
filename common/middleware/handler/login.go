@@ -1,8 +1,8 @@
 package handler
 
 import (
-	log "github.com/go-admin-team/go-admin-core/logger"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg"
+	log "github.com/yel-yan/go-admin-core/logger"
+	"github.com/yel-yan/go-admin-core/sdk/pkg"
 	"gorm.io/gorm"
 )
 

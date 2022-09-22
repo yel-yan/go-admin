@@ -3,8 +3,8 @@ package apis
 import (
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"
-	"github.com/go-admin-team/go-admin-core/sdk/api"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg/jwtauth/user"
+	"github.com/yel-yan/go-admin-core/sdk/api"
+	"github.com/yel-yan/go-admin-core/sdk/pkg/jwtauth/user"
 	"go-admin/app/admin/models"
 
 	"go-admin/app/admin/service"
@@ -253,7 +253,7 @@ func (e SysMenu) GetMenuRole(c *gin.Context) {
 func (e SysMenu) GetMenuTreeSelect(c *gin.Context) {
 	m := service.SysMenu{}
 	r := service.SysRole{}
-	req :=dto.SelectRole{}
+	req := dto.SelectRole{}
 	err := e.MakeContext(c).
 		MakeOrm().
 		MakeService(&m.Service).

@@ -5,8 +5,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/go-admin-team/go-admin-core/sdk/pkg"
 	"github.com/pkg/errors"
+	"github.com/yel-yan/go-admin-core/sdk/pkg"
 	"gorm.io/gorm"
 
 	"go-admin/app/admin/models"
@@ -14,7 +14,7 @@ import (
 	cDto "go-admin/common/dto"
 	cModels "go-admin/common/models"
 
-	"github.com/go-admin-team/go-admin-core/sdk/service"
+	"github.com/yel-yan/go-admin-core/sdk/service"
 )
 
 type SysMenu struct {

@@ -15,11 +15,11 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"github.com/go-admin-team/go-admin-core/sdk"
-	"github.com/go-admin-team/go-admin-core/sdk/api"
-	"github.com/go-admin-team/go-admin-core/sdk/config"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg/jwtauth/user"
+	"github.com/yel-yan/go-admin-core/sdk"
+	"github.com/yel-yan/go-admin-core/sdk/api"
+	"github.com/yel-yan/go-admin-core/sdk/config"
+	"github.com/yel-yan/go-admin-core/sdk/pkg"
+	"github.com/yel-yan/go-admin-core/sdk/pkg/jwtauth/user"
 
 	"go-admin/common/global"
 )

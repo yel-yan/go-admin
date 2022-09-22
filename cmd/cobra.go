@@ -3,7 +3,7 @@ package cmd
 import (
 	"errors"
 	"fmt"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg"
+	"github.com/yel-yan/go-admin-core/sdk/pkg"
 	"go-admin/cmd/app"
 	"go-admin/common/global"
 	"os"
